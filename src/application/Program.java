@@ -41,6 +41,7 @@ public class Program {
         System.out.print("Digite o endereco destino: ");
         path = sc.nextLine();
         path = generateOutput(path,list);
+		sc.close();
     }
     
     public static List<Product> readFile(String path){
